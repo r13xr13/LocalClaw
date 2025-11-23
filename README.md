@@ -5,7 +5,7 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 **LYRA** WAS an advanced cyber intelligence platform engineered by **R13 Systems** to empower cybersecurity professionals, red teams, and trusted operators. It is designed to identify, profile, and respond to digital threats with tactical precision capable of both defense and simulated offense within a modular, secure execution zone.
 **HELIX** on the other hand, Developed By RaidRabbit in Partnership with R13 Systems. Is a whole New beast. Fully contained in one Stack
@@ -94,7 +94,7 @@ See `LICENSE` for formal access clauses.
 
 ---
 
-## 🧩 Architecture Snapshot
+##  Architecture Snapshot
 
 ```text
                    ┌──────────────────────────┐
@@ -109,14 +109,14 @@ See `LICENSE` for formal access clauses.
                               │
      ┌────────────────────────┼────────────────────────┐
      ▼                        ▼                        ▼
-┌───────────────┐   ┌─────────────────┐     ┌──────────────────────┐
-│   Tool Layer   │   │  Memory System  │     │   Threat Intel Feeds │
-│ (145+ tools)   │   │  (JSON + YAML)  │     │   (Local CVE/NVD)    │
-└───────┬────────┘   └─────────┬──────┘     └──────────┬───────────┘
-        │                      │                       │
-        └──────────────┬──────┼───────────┬───────────┘
-                       ▼      ▼           ▼
-              ┌──────────────────────────────────┐
+ ┌───────────────┐   ┌─────────────────┐     ┌──────────────────────┐
+ │   Tool Layer  │   │  Memory System  │     │   Threat Intel Feeds │
+ | (145+ tools)  │   │  (JSON + YAML)  │     │   (Local CVE/NVD)    │
+ └───────┬───────┘   └─────────┬───────┘     └─────────┬────────────┘
+         │                     │                       │
+         └──────────────┬──────┼───────────┬───────────┘
+                        ▼      ▼           ▼
+              ┌───────────────────────────────────┐
               │        Graph Intelligence         │
               │     (relationships, assets,       │
               │    exposures, kill-chain paths)   │
@@ -130,7 +130,7 @@ See `LICENSE` for formal access clauses.
 
 ## Project Structure (Partial Release)
 
-| Path            | Description                                  |
+| Path             | Description                                 |
 |------------------|---------------------------------------------|
 | `/models`        | Local model storage (excluded from repo)    |
 | `/llama.cpp`     | Fast LLM inference backend                  |
@@ -150,7 +150,7 @@ See `LICENSE` for formal access clauses.
 
 ---
 
-## ⚠️  Legacy Modules
+## Legacy Modules
 
 ######ATTENTION ***** >>>
 
