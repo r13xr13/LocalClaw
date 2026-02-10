@@ -1,4 +1,4 @@
-# LocalClaw — Local-First Intelligence Platform
+# LocalClaw:lobster:  — A Local-First, Privacy Driven Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker Pulls](https://img.shields.io/docker/pulls/yourusername/localclaw.svg?logo=docker)](https://hub.docker.com/r/yourusername/localclaw)
