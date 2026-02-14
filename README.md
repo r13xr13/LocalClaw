@@ -1,4 +1,4 @@
-# LocalClaw :lobster:  — A Local-First, Privacy Driven Platform
+# Automa  — A Local-First, Privacy Driven Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker Pulls](https://img.shields.io/docker/pulls/yourusername/localclaw.svg?logo=docker)](https://hub.docker.com/r/yourusername/localclaw)
@@ -7,15 +7,15 @@
 **Release Date:** 3/1/26  
 **Runtime:** Docker, Python 3.10+
 
-LocalClaw is a **local-first intelligent platform** designed for security professionals and privacy-conscious users who want full control over their tools, data, and execution environment.
+Automa is a **local-first intelligent platform** designed for security professionals and privacy-conscious users who want full control over their tools, data, and execution environment.
 
 It runs on your machine, uses local models by default, and integrates online capabilities in a way that remains inspectable, controllable, and user-owned.
 
 ---
 
-## What Is LocalClaw?
+## What Is Automa?
 
-LocalClaw is a self-hosted AI-driven system for analysis, research, automation, and knowledge management.
+Automa is a self-hosted AI-driven system for analysis, research, automation, and knowledge management.
 
 It is built to:
 - Replace cloud-dependent AI and analysis tools
@@ -23,15 +23,15 @@ It is built to:
 - Provide powerful online capabilities without surrendering control
 - Operate transparently, with no hidden services or telemetry
 
-LocalClaw is not a SaaS replacement.  
+Automa is not a SaaS replacement.  
 It is an **operator-owned system**.
 
 ---
 
-## Who Is LocalClaw For?
+## Who Is Automa For?
 
 ### Security and Technical Professionals
-LocalClaw is designed with professionals in mind:
+Automa is designed with professionals in mind:
 
 - Analysts
 - Engineers
@@ -44,7 +44,7 @@ It assumes comfort with containers, configuration, and local tooling.
 ---
 
 ### Privacy-First Daily Users
-LocalClaw is equally usable by daily users who care about privacy:
+Automa is equally usable by daily users who care about privacy:
 
 - Writers and researchers
 - Developers and students
@@ -57,7 +57,7 @@ The same architecture that supports professional workflows also protects everyda
 
 ## Design Principles
 
-LocalClaw is built on a small number of non-negotiable principles:
+Automa is built on a small number of non-negotiable principles:
 
 - Local-first execution
 - User-owned data and memory
@@ -72,7 +72,7 @@ Privacy comes from **architecture**, not feature removal.
 
 ## Default Capabilities
 
-LocalClaw ships with the following **enabled by default**:
+Automa ships with the following **enabled by default**:
 
 ### Local AI Engine
 - Quantized local language models
@@ -125,7 +125,7 @@ LocalClaw ships with the following **enabled by default**:
 
 ## Architecture Overview (Conceptual)
 
-LocalClaw is composed of:
+Automa is composed of:
 
 - A local AI inference service
 - A coordination and memory layer
@@ -150,5 +150,5 @@ Each component is isolated, inspectable, and replaceable.
 ### Homebrew (macOS and Linux)
 
 ```bash
-brew install localclaw
+brew install Automa
 
